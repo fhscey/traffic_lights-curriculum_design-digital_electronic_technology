@@ -1,0 +1,432 @@
+Quartus II 64-Bit
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+45
+3468
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74160
+# storage
+db|Block1.(1).cnf
+db|Block1.(1).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74160.bdf
+dbb38ebd58de127a9388bea4bb226048
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block1:inst|74160:inst
+Block1:inst3|74160:inst
+}
+# macro_sequence
+
+# end
+# entity
+Block2
+# storage
+db|Block1.(3).cnf
+db|Block1.(3).cnf
+# case_insensitive
+# source_file
+block2.bdf
+bb501b9b9bd28087a55bf235e491dbbe
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block2:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Block5
+# storage
+db|Block1.(4).cnf
+db|Block1.(4).cnf
+# case_insensitive
+# source_file
+block5.bdf
+d4fef32342c77dbcd815d75e9ddd9aaf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block5:inst10
+Block5:inst11
+Block5:inst12
+Block5:inst13
+}
+# macro_sequence
+
+# end
+# entity
+7448
+# storage
+db|Block1.(5).cnf
+db|Block1.(5).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|7448.bdf
+7d23bacb84fe4aab4666d730ef46f93e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block5:inst10|7448:inst
+Block5:inst11|7448:inst
+Block5:inst12|7448:inst
+Block5:inst13|7448:inst
+}
+# macro_sequence
+
+# end
+# entity
+74190
+# storage
+db|Block1.(7).cnf
+db|Block1.(7).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74190.bdf
+9c52277a38ad8b1ffb6c950da6d9774
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst4|74190:inst
+Block4:inst4|74190:inst1
+Block4:inst5|74190:inst
+Block4:inst5|74190:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Block3
+# storage
+db|Block1.(8).cnf
+db|Block1.(8).cnf
+# case_insensitive
+# source_file
+block3.bdf
+52f61a1eddd83ccaa553f15c75b2a4a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block3:inst2
+}
+# macro_sequence
+
+# end
+# entity
+7491
+# storage
+db|Block1.(9).cnf
+db|Block1.(9).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|7491.bdf
+f8a843e1272a26428290ec0ce4a24ae
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|Block1.(11).cnf
+db|Block1.(11).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74138.bdf
+32dc8fd1db23180dae8214abe35379
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block6:inst36|74138:inst2
+Block6:inst36|74138:inst7
+Block6:inst37|74138:inst2
+Block6:inst37|74138:inst7
+Block6:inst35|74138:inst2
+Block6:inst35|74138:inst7
+Block6:inst34|74138:inst2
+Block6:inst34|74138:inst7
+Block6:inst38|74138:inst2
+Block6:inst38|74138:inst7
+Block6:inst39|74138:inst2
+Block6:inst39|74138:inst7
+}
+# macro_sequence
+
+# end
+# entity
+Block6
+# storage
+db|Block1.(10).cnf
+db|Block1.(10).cnf
+# case_insensitive
+# source_file
+block6.bdf
+a669da12598460ba7ca59d7eae331715
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block6:inst36
+Block6:inst37
+Block6:inst35
+Block6:inst34
+Block6:inst38
+Block6:inst39
+}
+# macro_sequence
+
+# end
+# entity
+74153
+# storage
+db|Block1.(13).cnf
+db|Block1.(13).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74153.bdf
+282da062e85dbc28b5a89e8c71ef2a39
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Block1
+# storage
+db|Block1.(2).cnf
+db|Block1.(2).cnf
+# case_insensitive
+# source_file
+block1.bdf
+68f9f07cec45613e1966164c30ce5960
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block1:inst
+Block1:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Block7
+# storage
+db|Block1.(12).cnf
+db|Block1.(12).cnf
+# case_insensitive
+# source_file
+block7.bdf
+b6768d28d5fcf5c21388668f849c9d83
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block7:inst16
+Block7:inst20
+Block7:inst21
+Block7:inst14
+Block7:inst18
+Block7:inst15
+Block7:inst17
+}
+# macro_sequence
+
+# end
+# entity
+74283
+# storage
+db|Block1.(14).cnf
+db|Block1.(14).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74283.tdf
+a937078c0865ce0d82244397bd88a2c
+7
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SUM4
+-1
+3
+SUM3
+-1
+3
+SUM2
+-1
+3
+SUM1
+-1
+3
+A4
+-1
+3
+A3
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+B4
+-1
+1
+B3
+-1
+1
+B2
+-1
+1
+B1
+-1
+1
+CIN
+-1
+2
+}
+# hierarchies {
+Block4:inst4|74283:inst3
+Block4:inst5|74283:inst3
+}
+# macro_sequence
+
+# end
+# entity
+f74283
+# storage
+db|Block1.(15).cnf
+db|Block1.(15).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|f74283.bdf
+e7196949c2eee906273cd5c3cb3c346
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst4|74283:inst3|f74283:sub
+Block4:inst5|74283:inst3|f74283:sub
+}
+# macro_sequence
+
+# end
+# entity
+TEST
+# storage
+db|Block1.(0).cnf
+db|Block1.(0).cnf
+# case_insensitive
+# source_file
+test.bdf
+feaa17820b689695218a5ae17169f43
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Block4
+# storage
+db|Block1.(6).cnf
+db|Block1.(6).cnf
+# case_insensitive
+# source_file
+block4.bdf
+30111ef919926d249afc66bab3bab8b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst4
+Block4:inst5
+}
+# macro_sequence
+
+# end
+# complete
+
