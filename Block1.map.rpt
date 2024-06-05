@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Block1
-Sat May 25 17:43:11 2024
+Wed Jun 05 20:53:46 2024
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -14,10 +14,9 @@ Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Versio
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Logic Cells Representing Combinational Loops
-  9. General Register Statistics
- 10. Parameter Settings for User Entity Instance: Block4:inst4|74283:inst3
- 11. Parameter Settings for User Entity Instance: Block4:inst5|74283:inst3
- 12. Analysis & Synthesis Messages
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -43,12 +42,12 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                ;
 +-----------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Sat May 25 17:43:11 2024         ;
+; Analysis & Synthesis Status ; Successful - Wed Jun 05 20:53:46 2024         ;
 ; Quartus II 64-Bit Version   ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name               ; Block1                                        ;
 ; Top-level Entity Name       ; TEST                                          ;
 ; Family                      ; MAX II                                        ;
-; Total logic elements        ; 118                                           ;
+; Total logic elements        ; 139                                           ;
 ; Total pins                  ; 39                                            ;
 ; Total virtual pins          ; 0                                             ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                                 ;
@@ -139,26 +138,26 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                            ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                            ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------+
-; Block1.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block1.bdf          ;
-; Block2.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block2.bdf          ;
-; Block3.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block3.bdf          ;
-; TEST.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/TEST.bdf            ;
-; Block4.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block4.bdf          ;
-; Block5.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block5.bdf          ;
-; Block6.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block6.bdf          ;
-; Block7.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/shud/Block7.bdf          ;
-; 7448.bdf                         ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/7448.bdf   ;
-; 74190.bdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74190.bdf  ;
-; 74283.tdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74283.tdf  ;
-; f74283.bdf                       ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/f74283.bdf ;
-; 74160.bdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74160.bdf  ;
-; 74138.bdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74138.bdf  ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                             ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                             ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+
+; Block1.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block1.bdf ;
+; Block2.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block2.bdf ;
+; Block3.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block3.bdf ;
+; TEST.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/TEST.bdf   ;
+; Block4.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block4.bdf ;
+; Block5.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block5.bdf ;
+; Block6.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block6.bdf ;
+; Block7.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block7.bdf ;
+; Block8.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block8.bdf ;
+; Block9.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Administrator/Desktop/traffic_lights/Block9.bdf ;
+; 7448.bdf                         ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/7448.bdf    ;
+; 74160.bdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74160.bdf   ;
+; 74138.bdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74138.bdf   ;
+; 74190.bdf                        ; yes             ; Megafunction                       ; d:/quartus/quartus/libraries/others/maxplus2/74190.bdf   ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -166,73 +165,87 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 118   ;
-;     -- Combinational with no register       ; 94    ;
-;     -- Register only                        ; 12    ;
-;     -- Combinational with a register        ; 12    ;
+; Total logic elements                        ; 139   ;
+;     -- Combinational with no register       ; 76    ;
+;     -- Register only                        ; 30    ;
+;     -- Combinational with a register        ; 33    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 58    ;
-;     -- 3 input functions                    ; 27    ;
-;     -- 2 input functions                    ; 15    ;
-;     -- 1 input functions                    ; 6     ;
+;     -- 4 input functions                    ; 62    ;
+;     -- 3 input functions                    ; 31    ;
+;     -- 2 input functions                    ; 11    ;
+;     -- 1 input functions                    ; 5     ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 116   ;
-;     -- arithmetic mode                      ; 2     ;
+;     -- normal mode                          ; 139   ;
+;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
 ;     -- synchronous clear/load mode          ; 0     ;
 ;     -- asynchronous clear/load mode         ; 24    ;
 ;                                             ;       ;
-; Total registers                             ; 24    ;
-; Total logic cells in carry chains           ; 4     ;
+; Total registers                             ; 63    ;
 ; I/O pins                                    ; 39    ;
 ; Maximum fan-out node                        ; CLK   ;
-; Maximum fan-out                             ; 20    ;
-; Total fan-out                               ; 462   ;
-; Average fan-out                             ; 2.94  ;
+; Maximum fan-out                             ; 21    ;
+; Total fan-out                               ; 536   ;
+; Average fan-out                             ; 3.01  ;
 +---------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                        ;
-+----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                       ; Library Name ;
-+----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------+--------------+
-; |TEST                      ; 118 (3)     ; 24           ; 0          ; 39   ; 0            ; 94 (3)       ; 12 (0)            ; 12 (0)           ; 4 (0)           ; 0 (0)      ; |TEST                                     ; work         ;
-;    |Block1:inst3|          ; 6 (2)       ; 4            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst3                        ; work         ;
-;       |74160:inst|         ; 4 (4)       ; 4            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst3|74160:inst             ; work         ;
-;    |Block1:inst|           ; 6 (2)       ; 4            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst                         ; work         ;
-;       |74160:inst|         ; 4 (4)       ; 4            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst|74160:inst              ; work         ;
-;    |Block2:inst1|          ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block2:inst1                        ; work         ;
-;    |Block3:inst2|          ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block3:inst2                        ; work         ;
-;    |Block4:inst4|          ; 32 (0)      ; 8            ; 0          ; 0    ; 0            ; 24 (0)       ; 6 (0)             ; 2 (0)            ; 2 (0)           ; 0 (0)      ; |TEST|Block4:inst4                        ; work         ;
-;       |74190:inst1|        ; 15 (15)     ; 4            ; 0          ; 0    ; 0            ; 11 (11)      ; 3 (3)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst4|74190:inst1            ; work         ;
-;       |74190:inst|         ; 15 (15)     ; 4            ; 0          ; 0    ; 0            ; 11 (11)      ; 3 (3)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst4|74190:inst             ; work         ;
-;       |74283:inst3|        ; 2 (0)       ; 0            ; 0          ; 0    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; 2 (0)           ; 0 (0)      ; |TEST|Block4:inst4|74283:inst3            ; work         ;
-;          |f74283:sub|      ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 2 (2)           ; 0 (0)      ; |TEST|Block4:inst4|74283:inst3|f74283:sub ; work         ;
-;    |Block4:inst5|          ; 31 (0)      ; 8            ; 0          ; 0    ; 0            ; 23 (0)       ; 6 (0)             ; 2 (0)            ; 2 (0)           ; 0 (0)      ; |TEST|Block4:inst5                        ; work         ;
-;       |74190:inst1|        ; 15 (15)     ; 4            ; 0          ; 0    ; 0            ; 11 (11)      ; 3 (3)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst5|74190:inst1            ; work         ;
-;       |74190:inst|         ; 14 (14)     ; 4            ; 0          ; 0    ; 0            ; 10 (10)      ; 3 (3)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst5|74190:inst             ; work         ;
-;       |74283:inst3|        ; 2 (0)       ; 0            ; 0          ; 0    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; 2 (0)           ; 0 (0)      ; |TEST|Block4:inst5|74283:inst3            ; work         ;
-;          |f74283:sub|      ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 2 (2)           ; 0 (0)      ; |TEST|Block4:inst5|74283:inst3|f74283:sub ; work         ;
-;    |Block5:inst10|         ; 7 (0)       ; 0            ; 0          ; 0    ; 0            ; 7 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst10                       ; work         ;
-;       |7448:inst|          ; 7 (7)       ; 0            ; 0          ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst10|7448:inst             ; work         ;
-;    |Block5:inst11|         ; 8 (0)       ; 0            ; 0          ; 0    ; 0            ; 8 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst11                       ; work         ;
-;       |7448:inst|          ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst11|7448:inst             ; work         ;
-;    |Block5:inst12|         ; 8 (0)       ; 0            ; 0          ; 0    ; 0            ; 8 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst12                       ; work         ;
-;       |7448:inst|          ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst12|7448:inst             ; work         ;
-;    |Block5:inst13|         ; 8 (0)       ; 0            ; 0          ; 0    ; 0            ; 8 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst13                       ; work         ;
-;       |7448:inst|          ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst13|7448:inst             ; work         ;
-;    |Block6:inst38|         ; 3 (0)       ; 0            ; 0          ; 0    ; 0            ; 3 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block6:inst38                       ; work         ;
-;       |74138:inst2|        ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block6:inst38|74138:inst2           ; work         ;
-;    |Block7:inst14|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst14                       ; work         ;
-;    |Block7:inst15|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst15                       ; work         ;
-;    |Block7:inst17|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst17                       ; work         ;
-;    |Block7:inst18|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst18                       ; work         ;
-+----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                          ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------------------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                         ; Library Name ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------------------------------+--------------+
+; |TEST                      ; 139 (4)     ; 63           ; 0          ; 39   ; 0            ; 76 (4)       ; 30 (0)            ; 33 (0)           ; 0 (0)           ; 0 (0)      ; |TEST                                       ; work         ;
+;    |Block1:inst5|          ; 5 (1)       ; 4            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst5                          ; work         ;
+;       |74160:inst|         ; 4 (4)       ; 4            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst5|74160:inst               ; work         ;
+;    |Block1:inst|           ; 5 (1)       ; 4            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 4 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst                           ; work         ;
+;       |74160:inst|         ; 4 (4)       ; 4            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TEST|Block1:inst|74160:inst                ; work         ;
+;    |Block2:inst1|          ; 3 (3)       ; 0            ; 0          ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block2:inst1                          ; work         ;
+;    |Block3:inst2|          ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block3:inst2                          ; work         ;
+;    |Block4:inst3|          ; 36 (9)      ; 20           ; 0          ; 0    ; 0            ; 16 (0)       ; 15 (8)            ; 5 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3                          ; work         ;
+;       |74190:inst1|        ; 8 (8)       ; 4            ; 0          ; 0    ; 0            ; 4 (4)        ; 3 (3)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|74190:inst1              ; work         ;
+;       |74190:inst|         ; 7 (7)       ; 4            ; 0          ; 0    ; 0            ; 3 (3)        ; 1 (1)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|74190:inst               ; work         ;
+;       |Block8:inst4|       ; 2 (2)       ; 1            ; 0          ; 0    ; 0            ; 1 (1)        ; 1 (1)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|Block8:inst4             ; work         ;
+;       |Block9:inst3|       ; 5 (4)       ; 1            ; 0          ; 0    ; 0            ; 4 (3)        ; 1 (1)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|Block9:inst3             ; work         ;
+;          |74160:inst1|     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|Block9:inst3|74160:inst1 ; work         ;
+;       |Block9:inst6|       ; 5 (4)       ; 1            ; 0          ; 0    ; 0            ; 4 (3)        ; 1 (1)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|Block9:inst6             ; work         ;
+;          |74160:inst1|     ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst3|Block9:inst6|74160:inst1 ; work         ;
+;    |Block4:inst9|          ; 42 (9)      ; 35           ; 0          ; 0    ; 0            ; 7 (0)        ; 15 (8)            ; 20 (1)           ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9                          ; work         ;
+;       |74190:inst1|        ; 8 (8)       ; 4            ; 0          ; 0    ; 0            ; 4 (4)        ; 3 (3)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|74190:inst1              ; work         ;
+;       |74190:inst|         ; 7 (7)       ; 4            ; 0          ; 0    ; 0            ; 3 (3)        ; 1 (1)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|74190:inst               ; work         ;
+;       |Block8:inst4|       ; 3 (1)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 2 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block8:inst4             ; work         ;
+;          |74160:inst1|     ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block8:inst4|74160:inst1 ; work         ;
+;          |74160:inst|      ; 1 (1)       ; 1            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block8:inst4|74160:inst  ; work         ;
+;       |Block9:inst3|       ; 7 (1)       ; 7            ; 0          ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 6 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block9:inst3             ; work         ;
+;          |74160:inst1|     ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block9:inst3|74160:inst1 ; work         ;
+;          |74160:inst|      ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block9:inst3|74160:inst  ; work         ;
+;       |Block9:inst6|       ; 8 (1)       ; 8            ; 0          ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 7 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block9:inst6             ; work         ;
+;          |74160:inst1|     ; 4 (4)       ; 4            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 4 (4)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block9:inst6|74160:inst1 ; work         ;
+;          |74160:inst|      ; 3 (3)       ; 3            ; 0          ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |TEST|Block4:inst9|Block9:inst6|74160:inst  ; work         ;
+;    |Block5:inst10|         ; 7 (0)       ; 0            ; 0          ; 0    ; 0            ; 7 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst10                         ; work         ;
+;       |7448:inst|          ; 7 (7)       ; 0            ; 0          ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst10|7448:inst               ; work         ;
+;    |Block5:inst11|         ; 8 (0)       ; 0            ; 0          ; 0    ; 0            ; 8 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst11                         ; work         ;
+;       |7448:inst|          ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst11|7448:inst               ; work         ;
+;    |Block5:inst12|         ; 7 (0)       ; 0            ; 0          ; 0    ; 0            ; 7 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst12                         ; work         ;
+;       |7448:inst|          ; 7 (7)       ; 0            ; 0          ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst12|7448:inst               ; work         ;
+;    |Block5:inst13|         ; 8 (0)       ; 0            ; 0          ; 0    ; 0            ; 8 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst13                         ; work         ;
+;       |7448:inst|          ; 8 (8)       ; 0            ; 0          ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block5:inst13|7448:inst               ; work         ;
+;    |Block6:inst38|         ; 2 (0)       ; 0            ; 0          ; 0    ; 0            ; 2 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block6:inst38                         ; work         ;
+;       |74138:inst2|        ; 2 (2)       ; 0            ; 0          ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block6:inst38|74138:inst2             ; work         ;
+;    |Block6:inst39|         ; 1 (0)       ; 0            ; 0          ; 0    ; 0            ; 1 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block6:inst39                         ; work         ;
+;       |74138:inst2|        ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block6:inst39|74138:inst2             ; work         ;
+;    |Block7:inst14|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst14                         ; work         ;
+;    |Block7:inst15|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst15                         ; work         ;
+;    |Block7:inst16|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst16                         ; work         ;
+;    |Block7:inst18|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst18                         ; work         ;
+;    |Block7:inst20|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst20                         ; work         ;
+;    |Block7:inst21|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst21                         ; work         ;
+;    |Block7:inst26|         ; 1 (1)       ; 0            ; 0          ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |TEST|Block7:inst26                         ; work         ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -241,11 +254,53 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------+---+
 ; Logic Cell Name                                        ;   ;
 +--------------------------------------------------------+---+
-; Block1:inst|inst10~0                                   ;   ;
-; Block1:inst3|inst10~0                                  ;   ;
+; Block1:inst|inst21~0                                   ;   ;
+; Block1:inst5|inst21~0                                  ;   ;
 ; Number of logic cells representing combinational loops ; 2 ;
 +--------------------------------------------------------+---+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++-----------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                            ;
++-----------------------------------------+-----------------------------------------------------+
+; Register name                           ; Reason for Removal                                  ;
++-----------------------------------------+-----------------------------------------------------+
+; Block4:inst9|Block9:inst3|74160:inst|6  ; Merged with Block4:inst9|Block8:inst4|74160:inst|6  ;
+; Block4:inst3|Block8:inst4|74160:inst|6  ; Merged with Block4:inst9|Block8:inst4|74160:inst|6  ;
+; Block4:inst3|Block9:inst3|74160:inst|6  ; Merged with Block4:inst9|Block8:inst4|74160:inst|6  ;
+; Block4:inst9|Block9:inst6|74160:inst|6  ; Merged with Block4:inst9|Block8:inst4|74160:inst|6  ;
+; Block4:inst3|Block9:inst6|74160:inst|6  ; Merged with Block4:inst9|Block8:inst4|74160:inst|6  ;
+; Block4:inst9|Block8:inst4|74160:inst|7  ; Lost fanout                                         ;
+; Block4:inst9|Block8:inst4|74160:inst|8  ; Lost fanout                                         ;
+; Block4:inst9|Block8:inst4|74160:inst|9  ; Lost fanout                                         ;
+; Block4:inst3|Block8:inst4|74160:inst|7  ; Lost fanout                                         ;
+; Block4:inst3|Block8:inst4|74160:inst|8  ; Lost fanout                                         ;
+; Block4:inst3|Block9:inst3|74160:inst1|6 ; Merged with Block4:inst9|Block8:inst4|74160:inst1|6 ;
+; Block4:inst9|Block9:inst3|74160:inst1|6 ; Merged with Block4:inst9|Block8:inst4|74160:inst1|6 ;
+; Block4:inst3|Block8:inst4|74160:inst1|6 ; Merged with Block4:inst9|Block8:inst4|74160:inst1|6 ;
+; Block4:inst3|Block8:inst4|74160:inst1|9 ; Merged with Block4:inst9|Block8:inst4|74160:inst1|9 ;
+; Block4:inst3|Block8:inst4|74160:inst1|8 ; Merged with Block4:inst9|Block8:inst4|74160:inst1|8 ;
+; Block4:inst3|Block8:inst4|74160:inst1|7 ; Merged with Block4:inst9|Block8:inst4|74160:inst1|7 ;
+; Block4:inst3|Block9:inst6|74160:inst1|6 ; Merged with Block4:inst9|Block9:inst6|74160:inst1|6 ;
+; Block4:inst3|Block9:inst6|74160:inst1|9 ; Merged with Block4:inst9|Block9:inst6|74160:inst1|9 ;
+; Block4:inst3|Block9:inst6|74160:inst1|8 ; Merged with Block4:inst9|Block9:inst6|74160:inst1|8 ;
+; Block4:inst3|Block9:inst6|74160:inst1|7 ; Merged with Block4:inst9|Block9:inst6|74160:inst1|7 ;
+; Block4:inst3|Block9:inst6|74160:inst|9  ; Merged with Block4:inst9|Block9:inst6|74160:inst|9  ;
+; Block4:inst3|Block9:inst6|74160:inst|8  ; Merged with Block4:inst9|Block9:inst6|74160:inst|8  ;
+; Block4:inst3|Block9:inst6|74160:inst|7  ; Merged with Block4:inst9|Block9:inst6|74160:inst|7  ;
+; Block4:inst3|Block9:inst3|74160:inst1|9 ; Merged with Block4:inst9|Block9:inst3|74160:inst1|9 ;
+; Block4:inst3|Block9:inst3|74160:inst1|8 ; Merged with Block4:inst9|Block9:inst3|74160:inst1|8 ;
+; Block4:inst3|Block9:inst3|74160:inst1|7 ; Merged with Block4:inst9|Block9:inst3|74160:inst1|7 ;
+; Block4:inst3|Block9:inst3|74160:inst|9  ; Merged with Block4:inst9|Block9:inst3|74160:inst|9  ;
+; Block4:inst3|Block8:inst4|74160:inst|9  ; Merged with Block4:inst9|Block9:inst3|74160:inst|9  ;
+; Block4:inst3|Block9:inst3|74160:inst|8  ; Merged with Block4:inst9|Block9:inst3|74160:inst|8  ;
+; Block4:inst3|Block9:inst3|74160:inst|7  ; Merged with Block4:inst9|Block9:inst3|74160:inst|7  ;
+; Block4:inst9|Block8:inst4|74160:inst1|9 ; Merged with Block4:inst9|Block9:inst3|74160:inst1|9 ;
+; Block4:inst9|Block8:inst4|74160:inst1|8 ; Merged with Block4:inst9|Block9:inst3|74160:inst1|8 ;
+; Block4:inst9|Block8:inst4|74160:inst1|7 ; Merged with Block4:inst9|Block9:inst3|74160:inst1|7 ;
+; Total Number of Removed Registers = 33  ;                                                     ;
++-----------------------------------------+-----------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -253,42 +308,14 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 24    ;
+; Total registers                              ; 63    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 24    ;
-; Number of registers using Asynchronous Load  ; 14    ;
+; Number of registers using Asynchronous Clear ; 12    ;
+; Number of registers using Asynchronous Load  ; 12    ;
 ; Number of registers using Clock Enable       ; 2     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
-
-
-+-----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Block4:inst4|74283:inst3 ;
-+------------------------+--------+-------------------------------------+
-; Parameter Name         ; Value  ; Type                                ;
-+------------------------+--------+-------------------------------------+
-; DEVICE_FAMILY          ; MAX II ; Untyped                             ;
-; AUTO_CARRY_CHAINS      ; ON     ; AUTO_CARRY                          ;
-; IGNORE_CARRY_BUFFERS   ; OFF    ; IGNORE_CARRY                        ;
-; AUTO_CASCADE_CHAINS    ; ON     ; AUTO_CASCADE                        ;
-; IGNORE_CASCADE_BUFFERS ; OFF    ; IGNORE_CASCADE                      ;
-+------------------------+--------+-------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Block4:inst5|74283:inst3 ;
-+------------------------+--------+-------------------------------------+
-; Parameter Name         ; Value  ; Type                                ;
-+------------------------+--------+-------------------------------------+
-; DEVICE_FAMILY          ; MAX II ; Untyped                             ;
-; AUTO_CARRY_CHAINS      ; ON     ; AUTO_CARRY                          ;
-; IGNORE_CARRY_BUFFERS   ; OFF    ; IGNORE_CARRY                        ;
-; AUTO_CASCADE_CHAINS    ; ON     ; AUTO_CASCADE                        ;
-; IGNORE_CASCADE_BUFFERS ; OFF    ; IGNORE_CASCADE                      ;
-+------------------------+--------+-------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-------------------------------+
@@ -297,7 +324,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Sat May 25 17:43:11 2024
+    Info: Processing started: Wed Jun 05 20:53:45 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Block1 -c Block1
 Info: Parallel compilation is enabled and will use 14 of the 14 processors detected
 Info: Found 1 design units, including 1 entities, in source file block1.bdf
@@ -318,39 +345,42 @@ Info: Found 1 design units, including 1 entities, in source file block7.bdf
     Info: Found entity 1: Block7
 Info: Found 1 design units, including 1 entities, in source file block4t.bdf
     Info: Found entity 1: Block4T
+Info: Found 1 design units, including 1 entities, in source file block8.bdf
+    Info: Found entity 1: Block8
+Info: Found 1 design units, including 1 entities, in source file block9.bdf
+    Info: Found entity 1: Block9
 Info: Elaborating entity "TEST" for the top level hierarchy
-Warning: Block or symbol "NOT" of instance "inst49" overlaps another block or symbol
 Info: Elaborating entity "Block5" for hierarchy "Block5:inst10"
 Info: Elaborating entity "7448" for hierarchy "Block5:inst10|7448:inst"
 Info: Elaborated megafunction instantiation "Block5:inst10|7448:inst"
-Info: Elaborating entity "Block4" for hierarchy "Block4:inst4"
-Warning: Block or symbol "74283" of instance "inst3" overlaps another block or symbol
-Info: Elaborating entity "74190" for hierarchy "Block4:inst4|74190:inst"
-Info: Elaborated megafunction instantiation "Block4:inst4|74190:inst"
-Info: Elaborating entity "74283" for hierarchy "Block4:inst4|74283:inst3"
-Info: Elaborated megafunction instantiation "Block4:inst4|74283:inst3"
-Info: Elaborating entity "f74283" for hierarchy "Block4:inst4|74283:inst3|f74283:sub"
-Info: Elaborated megafunction instantiation "Block4:inst4|74283:inst3|f74283:sub", which is child of megafunction instantiation "Block4:inst4|74283:inst3"
+Info: Elaborating entity "Block4" for hierarchy "Block4:inst3"
+Info: Elaborating entity "Block9" for hierarchy "Block4:inst3|Block9:inst3"
+Info: Elaborating entity "74160" for hierarchy "Block4:inst3|Block9:inst3|74160:inst"
+Info: Elaborated megafunction instantiation "Block4:inst3|Block9:inst3|74160:inst"
+Info: Elaborating entity "74138" for hierarchy "Block4:inst3|Block9:inst3|74138:inst6"
+Info: Elaborated megafunction instantiation "Block4:inst3|Block9:inst3|74138:inst6"
+Info: Elaborating entity "74190" for hierarchy "Block4:inst3|74190:inst"
+Info: Elaborated megafunction instantiation "Block4:inst3|74190:inst"
+Info: Elaborating entity "Block8" for hierarchy "Block4:inst3|Block8:inst4"
 Info: Elaborating entity "Block2" for hierarchy "Block2:inst1"
 Info: Elaborating entity "Block1" for hierarchy "Block1:inst"
-Info: Elaborating entity "74160" for hierarchy "Block1:inst|74160:inst"
-Info: Elaborated megafunction instantiation "Block1:inst|74160:inst"
 Info: Elaborating entity "Block3" for hierarchy "Block3:inst2"
 Info: Elaborating entity "Block6" for hierarchy "Block6:inst36"
-Info: Elaborating entity "74138" for hierarchy "Block6:inst36|74138:inst2"
-Info: Elaborated megafunction instantiation "Block6:inst36|74138:inst2"
-Info: Elaborating entity "Block7" for hierarchy "Block7:inst16"
-Info: Ignored 2 buffer(s)
-    Info: Ignored 2 SOFT buffer(s)
-Info: Converted 2 single input CARRY primitives to CARRY_SUM primitives
-Info: Implemented 157 device resources after synthesis - the final resource count might be different
+Info: Elaborating entity "Block7" for hierarchy "Block7:inst20"
+Info: 5 registers lost all their fanouts during netlist optimizations. The first 5 are displayed below.
+    Info: Register "Block4:inst9|Block8:inst4|74160:inst|7" lost all its fanouts during netlist optimizations.
+    Info: Register "Block4:inst9|Block8:inst4|74160:inst|8" lost all its fanouts during netlist optimizations.
+    Info: Register "Block4:inst9|Block8:inst4|74160:inst|9" lost all its fanouts during netlist optimizations.
+    Info: Register "Block4:inst3|Block8:inst4|74160:inst|7" lost all its fanouts during netlist optimizations.
+    Info: Register "Block4:inst3|Block8:inst4|74160:inst|8" lost all its fanouts during netlist optimizations.
+Info: Implemented 178 device resources after synthesis - the final resource count might be different
     Info: Implemented 2 input pins
     Info: Implemented 37 output pins
-    Info: Implemented 118 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4419 megabytes
-    Info: Processing ended: Sat May 25 17:43:11 2024
-    Info: Elapsed time: 00:00:00
+    Info: Implemented 139 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4415 megabytes
+    Info: Processing ended: Wed Jun 05 20:53:46 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

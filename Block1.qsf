@@ -90,8 +90,6 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
 set_global_assignment -name BDF_FILE Block6.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
-set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_location_assignment PIN_49 -to BUZZER
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
 set_global_assignment -name SIMULATION_MODE TIMING
@@ -109,5 +107,10 @@ set_global_assignment -name BDF_FILE Block7.bdf
 set_location_assignment PIN_69 -to ctrl
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform9.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveform9.vwf
 set_global_assignment -name BDF_FILE Block4T.bdf
+set_global_assignment -name MISC_FILE "C:/Users/Administrator/Desktop/traffic_lights-curriculum_design-digital_electronic_technology/Block1.dpf"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveform2.vwf
+set_global_assignment -name BDF_FILE Block8.bdf
+set_global_assignment -name BDF_FILE Block9.bdf
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"

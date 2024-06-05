@@ -34,8 +34,20 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
+Block4:inst3|Block9:inst3|74160:inst
+Block4:inst3|Block9:inst3|74160:inst1
+Block4:inst3|Block9:inst6|74160:inst
+Block4:inst3|Block9:inst6|74160:inst1
+Block4:inst3|Block8:inst4|74160:inst1
+Block4:inst3|Block8:inst4|74160:inst
 Block1:inst|74160:inst
-Block1:inst3|74160:inst
+Block4:inst9|Block9:inst3|74160:inst
+Block4:inst9|Block9:inst3|74160:inst1
+Block4:inst9|Block9:inst6|74160:inst
+Block4:inst9|Block9:inst6|74160:inst1
+Block4:inst9|Block8:inst4|74160:inst1
+Block4:inst9|Block8:inst4|74160:inst
+Block1:inst5|74160:inst
 }
 # macro_sequence
 
@@ -121,10 +133,10 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Block4:inst4|74190:inst
-Block4:inst4|74190:inst1
-Block4:inst5|74190:inst
-Block4:inst5|74190:inst1
+Block4:inst3|74190:inst
+Block4:inst3|74190:inst1
+Block4:inst9|74190:inst
+Block4:inst9|74190:inst1
 }
 # macro_sequence
 
@@ -181,6 +193,16 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
+Block4:inst3|Block9:inst3|74138:inst6
+Block4:inst3|Block9:inst3|74138:inst10
+Block4:inst3|Block9:inst6|74138:inst6
+Block4:inst3|Block9:inst6|74138:inst10
+Block4:inst3|Block8:inst4|74138:inst10
+Block4:inst9|Block9:inst3|74138:inst6
+Block4:inst9|Block9:inst3|74138:inst10
+Block4:inst9|Block9:inst6|74138:inst6
+Block4:inst9|Block9:inst6|74138:inst10
+Block4:inst9|Block8:inst4|74138:inst10
 Block6:inst36|74138:inst2
 Block6:inst36|74138:inst7
 Block6:inst37|74138:inst2
@@ -240,27 +262,6 @@ AUTO
 
 # end
 # entity
-Block1
-# storage
-db|Block1.(2).cnf
-db|Block1.(2).cnf
-# case_insensitive
-# source_file
-block1.bdf
-68f9f07cec45613e1966164c30ce5960
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-Block1:inst
-Block1:inst3
-}
-# macro_sequence
-
-# end
-# entity
 Block7
 # storage
 db|Block1.(12).cnf
@@ -275,13 +276,13 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Block7:inst16
 Block7:inst20
+Block7:inst16
 Block7:inst21
+Block7:inst26
 Block7:inst14
 Block7:inst18
 Block7:inst15
-Block7:inst17
 }
 # macro_sequence
 
@@ -359,10 +360,6 @@ CIN
 -1
 2
 }
-# hierarchies {
-Block4:inst4|74283:inst3
-Block4:inst5|74283:inst3
-}
 # macro_sequence
 
 # end
@@ -380,9 +377,143 @@ e7196949c2eee906273cd5c3cb3c346
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# macro_sequence
+
+# end
+# entity
+74283
+# storage
+db|Block1.(16).cnf
+db|Block1.(16).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74283.tdf
+a937078c0865ce0d82244397bd88a2c
+7
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SUM4
+-1
+3
+SUM3
+-1
+3
+SUM2
+-1
+3
+SUM1
+-1
+3
+A4
+-1
+3
+A3
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+B4
+-1
+1
+B3
+-1
+1
+B2
+-1
+1
+B1
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+Block9
+# storage
+db|Block1.(17).cnf
+db|Block1.(17).cnf
+# case_insensitive
+# source_file
+block9.bdf
+459bb59878fcc95fc740c01d76b0b42d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
 # hierarchies {
-Block4:inst4|74283:inst3|f74283:sub
-Block4:inst5|74283:inst3|f74283:sub
+Block4:inst3|Block9:inst3
+Block4:inst3|Block9:inst6
+Block4:inst9|Block9:inst3
+Block4:inst9|Block9:inst6
+}
+# macro_sequence
+
+# end
+# entity
+Block8
+# storage
+db|Block1.(18).cnf
+db|Block1.(18).cnf
+# case_insensitive
+# source_file
+block8.bdf
+492c6546b73153b8d3d0a56f92ee34
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst3|Block8:inst4
+Block4:inst9|Block8:inst4
+}
+# macro_sequence
+
+# end
+# entity
+Block1
+# storage
+db|Block1.(2).cnf
+db|Block1.(2).cnf
+# case_insensitive
+# source_file
+block1.bdf
+aebdbd947daaaa6b950175ae66ec
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block1:inst
+Block1:inst5
 }
 # macro_sequence
 
@@ -395,7 +526,7 @@ db|Block1.(0).cnf
 # case_insensitive
 # source_file
 test.bdf
-feaa17820b689695218a5ae17169f43
+614521e67d9e72adb5b7896ef91d60af
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -415,15 +546,15 @@ db|Block1.(6).cnf
 # case_insensitive
 # source_file
 block4.bdf
-30111ef919926d249afc66bab3bab8b
+87d61cb73ebf0bef7a0566c45ee46c6
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Block4:inst4
-Block4:inst5
+Block4:inst3
+Block4:inst9
 }
 # macro_sequence
 
