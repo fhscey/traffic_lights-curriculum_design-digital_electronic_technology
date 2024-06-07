@@ -1,11 +1,11 @@
-Fitter Status : Successful - Wed Jun 05 20:53:47 2024
+Fitter Status : Successful - Fri Jun 07 18:14:01 2024
 Quartus II 64-Bit Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
 Revision Name : Block1
 Top-level Entity Name : TEST
 Family : MAX II
 Device : EPM1270T144C5
 Timing Models : Final
-Total logic elements : 111 / 1,270 ( 9 % )
-Total pins : 39 / 116 ( 34 % )
+Total logic elements : 104 / 1,270 ( 8 % )
+Total pins : 40 / 116 ( 34 % )
 Total virtual pins : 0
 UFM blocks : 0 / 1 ( 0 % )

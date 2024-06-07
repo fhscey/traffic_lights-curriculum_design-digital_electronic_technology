@@ -109,8 +109,12 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform9.vwf
 set_global_assignment -name BDF_FILE Block4T.bdf
 set_global_assignment -name MISC_FILE "C:/Users/Administrator/Desktop/traffic_lights-curriculum_design-digital_electronic_technology/Block1.dpf"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveform2.vwf
 set_global_assignment -name BDF_FILE Block8.bdf
 set_global_assignment -name BDF_FILE Block9.bdf
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name BDF_FILE Block10.bdf
+set_global_assignment -name BDF_FILE Block11.bdf
+set_global_assignment -name MISC_FILE "C:/Users/Administrator/Desktop/traffic_lights/Block1.dpf"
+set_global_assignment -name GLITCH_DETECTION OFF
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveform2.vwf

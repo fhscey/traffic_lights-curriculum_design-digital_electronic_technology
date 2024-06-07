@@ -34,19 +34,7 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Block4:inst3|Block9:inst3|74160:inst
-Block4:inst3|Block9:inst3|74160:inst1
-Block4:inst3|Block9:inst6|74160:inst
-Block4:inst3|Block9:inst6|74160:inst1
-Block4:inst3|Block8:inst4|74160:inst1
-Block4:inst3|Block8:inst4|74160:inst
 Block1:inst|74160:inst
-Block4:inst9|Block9:inst3|74160:inst
-Block4:inst9|Block9:inst3|74160:inst1
-Block4:inst9|Block9:inst6|74160:inst
-Block4:inst9|Block9:inst6|74160:inst1
-Block4:inst9|Block8:inst4|74160:inst1
-Block4:inst9|Block8:inst4|74160:inst
 Block1:inst5|74160:inst
 }
 # macro_sequence
@@ -135,8 +123,8 @@ AUTO
 # hierarchies {
 Block4:inst3|74190:inst
 Block4:inst3|74190:inst1
-Block4:inst9|74190:inst
-Block4:inst9|74190:inst1
+Block4:inst4|74190:inst
+Block4:inst4|74190:inst1
 }
 # macro_sequence
 
@@ -193,16 +181,6 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-Block4:inst3|Block9:inst3|74138:inst6
-Block4:inst3|Block9:inst3|74138:inst10
-Block4:inst3|Block9:inst6|74138:inst6
-Block4:inst3|Block9:inst6|74138:inst10
-Block4:inst3|Block8:inst4|74138:inst10
-Block4:inst9|Block9:inst3|74138:inst6
-Block4:inst9|Block9:inst3|74138:inst10
-Block4:inst9|Block9:inst6|74138:inst6
-Block4:inst9|Block9:inst6|74138:inst10
-Block4:inst9|Block8:inst4|74138:inst10
 Block6:inst36|74138:inst2
 Block6:inst36|74138:inst7
 Block6:inst37|74138:inst2
@@ -276,6 +254,14 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
+Block4:inst3|Block10:inst9|Block7:inst
+Block4:inst3|Block10:inst9|Block7:inst11
+Block4:inst3|Block10:inst9|Block7:inst12
+Block4:inst3|Block10:inst9|Block7:inst13
+Block4:inst4|Block10:inst9|Block7:inst
+Block4:inst4|Block10:inst9|Block7:inst11
+Block4:inst4|Block10:inst9|Block7:inst12
+Block4:inst4|Block10:inst9|Block7:inst13
 Block7:inst20
 Block7:inst16
 Block7:inst21
@@ -377,6 +363,10 @@ e7196949c2eee906273cd5c3cb3c346
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+Block4:inst3|74283:inst6|f74283:sub
+Block4:inst4|74283:inst6|f74283:sub
+}
 # macro_sequence
 
 # end
@@ -467,12 +457,6 @@ block9.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
-# hierarchies {
-Block4:inst3|Block9:inst3
-Block4:inst3|Block9:inst6
-Block4:inst9|Block9:inst3
-Block4:inst9|Block9:inst6
-}
 # macro_sequence
 
 # end
@@ -489,10 +473,6 @@ block8.bdf
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
-}
-# hierarchies {
-Block4:inst3|Block8:inst4
-Block4:inst9|Block8:inst4
 }
 # macro_sequence
 
@@ -519,6 +499,23 @@ Block1:inst5
 
 # end
 # entity
+Block11
+# storage
+db|Block1.(19).cnf
+db|Block1.(19).cnf
+# case_insensitive
+# source_file
+block11.bdf
+2865c46e81acd8517e0982b47e720dc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
 TEST
 # storage
 db|Block1.(0).cnf
@@ -526,7 +523,7 @@ db|Block1.(0).cnf
 # case_insensitive
 # source_file
 test.bdf
-614521e67d9e72adb5b7896ef91d60af
+24aee8ac522a986b1b19233002ae58d
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -546,7 +543,7 @@ db|Block1.(6).cnf
 # case_insensitive
 # source_file
 block4.bdf
-87d61cb73ebf0bef7a0566c45ee46c6
+eb82219ad0c5a55c32c7f3266dd6d9
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -554,7 +551,108 @@ AUTO
 }
 # hierarchies {
 Block4:inst3
-Block4:inst9
+Block4:inst4
+}
+# macro_sequence
+
+# end
+# entity
+Block10
+# storage
+db|Block1.(20).cnf
+db|Block1.(20).cnf
+# case_insensitive
+# source_file
+block10.bdf
+512e366a8408d19aa69e434edfeba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Block4:inst3|Block10:inst9
+Block4:inst4|Block10:inst9
+}
+# macro_sequence
+
+# end
+# entity
+74283
+# storage
+db|Block1.(21).cnf
+db|Block1.(21).cnf
+# case_insensitive
+# source_file
+d:|quartus|quartus|libraries|others|maxplus2|74283.tdf
+a937078c0865ce0d82244397bd88a2c
+7
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SUM4
+-1
+3
+SUM3
+-1
+3
+SUM2
+-1
+3
+SUM1
+-1
+3
+A4
+-1
+3
+A3
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+CIN
+-1
+1
+B4
+-1
+2
+B3
+-1
+2
+B2
+-1
+2
+B1
+-1
+2
+}
+# hierarchies {
+Block4:inst3|74283:inst6
+Block4:inst4|74283:inst6
 }
 # macro_sequence
 

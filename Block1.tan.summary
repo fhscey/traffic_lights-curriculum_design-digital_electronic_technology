@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 0.907 ns
+Actual Time    : 7.224 ns
 From           : ctrl
-To             : Block4:inst9|74190:inst1|50
+To             : Block4:inst3|inst5
 From Clock     : --
 To Clock       : CLK
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 21.399 ns
-From           : Block4:inst9|inst61
-To             : BUZZER
+Actual Time    : 16.565 ns
+From           : Block1:inst5|74160:inst|6
+To             : SN_L_Green
 From Clock     : CLK
 To Clock       : --
 Failed Paths   : 0
@@ -25,9 +25,9 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 12.323 ns
+Actual Time    : 11.560 ns
 From           : ctrl
-To             : SN_L_Green
+To             : EW_Yellow
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,8 +35,8 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 2.028 ns
-From           : ctrl
+Actual Time    : -0.259 ns
+From           : CLK
 To             : Block4:inst3|74190:inst1|48
 From Clock     : --
 To Clock       : CLK
@@ -45,22 +45,12 @@ Failed Paths   : 0
 Type           : Clock Setup: 'CLK'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 100.41 MHz ( period = 9.959 ns )
-From           : Block4:inst9|74190:inst|48
-To             : Block4:inst9|74190:inst1|50
+Actual Time    : 46.97 MHz ( period = 21.290 ns )
+From           : Block1:inst5|74160:inst|6
+To             : Block4:inst4|Block10:inst9|inst7
 From Clock     : CLK
 To Clock       : CLK
 Failed Paths   : 0
-
-Type           : Clock Hold: 'CLK'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : Block4:inst9|Block8:inst4|inst17
-To             : Block4:inst9|inst5
-From Clock     : CLK
-To Clock       : CLK
-Failed Paths   : 6
 
 Type           : Total number of failed paths
 Slack          : 
@@ -70,7 +60,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 6
+Failed Paths   : 0
 
 --------------------------------------------------------------------------------------
 

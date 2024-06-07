@@ -2656,11 +2656,11 @@ VECTOR("C:/Users/Administrator/Desktop/shud/Waveform9.vwf")
 VECTOR("C:/Users/Administrator/Desktop/traffic_lights/Waveform2.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 28125000000000;
+		ZBEGIN = 54933317056794;
+		ZEND = 83058317056794;
 		NUMERATOR = 1478;
 		DENOMINATOR = 28125000000000;
-		TOP_INDEX = 5;
+		TOP_INDEX = 6;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -2977,6 +2977,14 @@ VECTOR("C:/Users/Administrator/Desktop/traffic_lights/Waveform2.vwf")
 	LINE{
 		SIGNAL = "SN_Yellow";
 		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "pin_name5";
+		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

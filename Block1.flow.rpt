@@ -1,5 +1,5 @@
 Flow report for Block1
-Wed Jun 05 20:53:48 2024
+Fri Jun 07 18:14:03 2024
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -38,16 +38,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +---------------------------+-----------------------------------------------+
-; Flow Status               ; Successful - Wed Jun 05 20:53:48 2024         ;
+; Flow Status               ; Successful - Fri Jun 07 18:14:03 2024         ;
 ; Quartus II 64-Bit Version ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name             ; Block1                                        ;
 ; Top-level Entity Name     ; TEST                                          ;
 ; Family                    ; MAX II                                        ;
 ; Device                    ; EPM1270T144C5                                 ;
 ; Timing Models             ; Final                                         ;
-; Met timing requirements   ; No                                            ;
-; Total logic elements      ; 111 / 1,270 ( 9 % )                           ;
-; Total pins                ; 39 / 116 ( 34 % )                             ;
+; Met timing requirements   ; Yes                                           ;
+; Total logic elements      ; 104 / 1,270 ( 8 % )                           ;
+; Total pins                ; 40 / 116 ( 34 % )                             ;
 ; Total virtual pins        ; 0                                             ;
 ; UFM blocks                ; 0 / 1 ( 0 % )                                 ;
 +---------------------------+-----------------------------------------------+
@@ -58,7 +58,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/05/2024 20:53:45 ;
+; Start date & time ; 06/07/2024 18:14:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Block1              ;
 +-------------------+---------------------+
@@ -69,11 +69,12 @@ applicable agreement for further details.
 +---------------------------------------+----------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                       ; Value                                                                                                    ; Default Value ; Entity Name ; Section Id     ;
 +---------------------------------------+----------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                 ; 96830622038130.171759202509972                                                                           ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                 ; 96830622038130.171775524005688                                                                           ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP                ; 85                                                                                                       ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP                ; 0                                                                                                        ; --            ; --          ; --             ;
 ; MISC_FILE                             ; C:/Users/Administrator/Desktop/shud/Block1.dpf                                                           ; --            ; --          ; --             ;
 ; MISC_FILE                             ; C:/Users/Administrator/Desktop/traffic_lights-curriculum_design-digital_electronic_technology/Block1.dpf ; --            ; --          ; --             ;
+; MISC_FILE                             ; C:/Users/Administrator/Desktop/traffic_lights/Block1.dpf                                                 ; --            ; --          ; --             ;
 ; POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR ; 3.3V                                                                                                     ; --            ; --          ; --             ;
 ; TOP_LEVEL_ENTITY                      ; TEST                                                                                                     ; Block1        ; --          ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS    ; Off                                                                                                      ; --            ; --          ; eda_blast_fpga ;
@@ -85,11 +86,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 4415 MB             ; 00:00:00                           ;
-; Fitter                  ; 00:00:01     ; 1.0                     ; 4509 MB             ; 00:00:00                           ;
+; Analysis & Synthesis    ; 00:00:00     ; 1.0                     ; 4419 MB             ; 00:00:00                           ;
+; Fitter                  ; 00:00:00     ; 1.0                     ; 4508 MB             ; 00:00:00                           ;
 ; Assembler               ; 00:00:00     ; 1.0                     ; 4365 MB             ; 00:00:00                           ;
 ; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 4344 MB             ; 00:00:00                           ;
-; Total                   ; 00:00:02     ; --                      ; --                  ; 00:00:00                           ;
+; Total                   ; 00:00:00     ; --                      ; --                  ; 00:00:00                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

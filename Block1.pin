@@ -110,7 +110,7 @@ GND*                         : 40        :        :                   :         
 GND*                         : 41        :        :                   :         : 4         :                
 GND*                         : 42        :        :                   :         : 4         :                
 GND*                         : 43        :        :                   :         : 4         :                
-GND*                         : 44        :        :                   :         : 4         :                
+pin_name5                    : 44        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : 45        :        :                   :         : 4         :                
 VCCIO4                       : 46        : power  :                   : 3.3V    : 4         :                
 GNDIO                        : 47        : gnd    :                   :         :           :                
